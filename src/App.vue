@@ -59,17 +59,25 @@ a {
 
 header {
     flex-shrink: 0;
+    height: 20vh;
 }
 
 .body{
     flex-grow: 1;
     overflow: auto;
     min-height: 2em;
+    height: 80vh;
 }
 
 footer{
     flex-shrink: 0;
     width: 100%;
-    height: 2.5rem;
+    height: 2.4rem;
+    position: sticky;
+    bottom: 0;
+    padding-top: 7px;
+    background-color: azure;
+    border-top: 1px black solid;
+    height: 10vh;
 }
 </style>
