@@ -1,6 +1,12 @@
 <template>
-  <div id="app">
+  <div id="app">    
+      <h1>Hobbies</h1>
     I like to play football, chess, swimming and read books. I also like to travel to meet new people.
+
+        <br>
+        <br>
+        <br>
+        [ <router-link to="/">back</router-link> ]
   </div>
 </template>
 

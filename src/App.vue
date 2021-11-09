@@ -1,9 +1,5 @@
 <template>
   <div id="app">
-    [ <router-link to="/">Quem sou eu</router-link> ] 
-    [ <router-link to="/Cv">O que faço</router-link> ]
-    [ <router-link to="/Hobbies">Hobbies</router-link> ]
-    <hr/>
     <router-view></router-view>
   </div>
 </template>
@@ -30,8 +26,9 @@ body {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  text-align: left;
   color: #2c3e50;
+  margin: 20px 10%;
 }
 
 h1, h2 {
@@ -44,12 +41,11 @@ ul {
 }
 
 li {
-  display: inline-block;
   margin: 0 10px;
 }
 
 a {
-  color: #42b983;
+  color: #17171a;
 }
 
 
