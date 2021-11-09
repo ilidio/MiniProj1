@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class="body">
     <router-view></router-view>
   </div>
 </template>
@@ -49,15 +49,27 @@ a {
 }
 
 
-#app {
-  padding-bottom: 2.5rem;    /* Footer height */
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;            /* Footer height */
+header {
+    flex-shrink: 0;
 }
 
+.body{
+    flex-grow: 1;
+    overflow: auto;
+    min-height: 2em;
+}
+
+footer{
+    flex-shrink: 0;
+    width: 100%;
+    height: 2.5rem;
+}
 </style>
