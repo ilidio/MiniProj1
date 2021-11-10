@@ -60,6 +60,8 @@ a {
 header {
     flex-shrink: 0;
     height: 20vh;
+    position: static;
+    top: 0;
 }
 
 .body{
@@ -67,6 +69,7 @@ header {
     overflow: auto;
     min-height: 2em;
     height: 80vh;
+    margin-top: 20vh;
 }
 
 footer{
