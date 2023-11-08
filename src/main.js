@@ -7,7 +7,6 @@ Vue.config.productionTip = false;
 
 
 import Home from './components/Home.vue';
-import Me from './components/Me.vue';
 import Cv from './components/Cv.vue';
 import Hobbies from './components/Hobbies.vue';
 import Header from './components/Header.vue'
@@ -18,7 +17,6 @@ const router = new VueRouter({
   mode: 'history',
   routes:[
     {path:'/', component: Home},
-    {path:'/Me',component: Me},
     {path:'/Cv',component: Cv},
     {path:'/Hobbies',component: Hobbies}
   ]

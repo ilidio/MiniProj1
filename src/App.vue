@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="body">
+  <div id="app" class="container">
     <router-view></router-view>
   </div>
 </template>
@@ -20,6 +20,12 @@ export default {
 <style>
 body {
   margin: 0;
+  background-image: url("./assets/images/background.png");
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire */
+  background-attachment: fixed;
 }
 
 #app {
@@ -51,10 +57,11 @@ a {
 
 .container {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    padding-top: 60px;
 }
 
 header {
@@ -62,17 +69,11 @@ header {
     height: 20vh;
     position: static;
     top: 0;
+    opacity: 90%;
 }
 
-.body{
-    flex-grow: 1;
-    overflow: auto;
-    min-height: 2em;
-    height: 80vh;
-    margin-top: 20vh;
-}
 
-footer{
+footer {
     flex-shrink: 0;
     width: 100%;
     height: 2.4rem;
@@ -80,7 +81,7 @@ footer{
     bottom: 0;
     padding-top: 7px;
     background-color: azure;
-    border-top: 1px black solid;
     height: 10vh;
+    opacity: 93%;
 }
 </style>
