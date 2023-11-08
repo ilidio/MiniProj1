@@ -37,5 +37,3 @@ cd ./prototipagem
 A verão online encontra-se disponivel no seguinte link: 
 https://wireframe.cc/pro/pp/92d8251fa698826
 
-
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
