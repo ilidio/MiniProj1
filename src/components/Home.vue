@@ -2,9 +2,11 @@
   <div>
     <h1>Quem sou eu</h1>
 
-    My sense of humor is so good, even my code laughs at my jokes—mostly because it's trying to figure out what I just wrote.
+    My sense of humor is so good, even my code laughs at my jokes—mostly because it's trying to figure out what I just
+    wrote.
     <br><br>
-    I once tried to teach my computer how to dance. It didn't quite get the rhythm, but now it does a killer interpretative error message.
+    I once tried to teach my computer how to dance. It didn't quite get the rhythm, but now it does a killer
+    interpretative error message.
     <br><br>
     My life is like a software update—constantly evolving, sometimes annoying, but ultimately for the better.
     <br><br>
@@ -18,7 +20,8 @@
     <br><br>
     I asked my computer for a joke, and it responded with my social life. Ouch, even the circuits are roasting me.
     <br><br>
-    If programming languages had a party, I'd be the guy in the corner trying to make small talk with JavaScript. It's complicated.
+    If programming languages had a party, I'd be the guy in the corner trying to make small talk with JavaScript. It's
+    complicated.
     <br><br>
     I love music so much that even my error messages are set to a catchy tune. It's like debugging with a soundtrack!
 
@@ -29,7 +32,7 @@
 export default {
   name: 'Home',
   template: '<div>SubPage path: {{msg}}</div>',
-  data: function() {
+  data: function () {
     return {
       msg: this.$route.path
     }
@@ -43,14 +46,14 @@ export default {
 }
 
 #main-menu-wrapper {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-menu {
-    margin-top: 20px;
-    text-align: left;
+  margin-top: 20px;
+  text-align: left;
 }
 
 .main-menu li {

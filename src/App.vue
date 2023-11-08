@@ -7,13 +7,13 @@
 
 <script>
 export default {
-    name: 'SubPage',
-    template: '<div>SubPage path:</div>',
-    data: function() {
-        return {
-            msg: this.$route.path
-        }
-    },
+  name: 'SubPage',
+  template: '<div>SubPage path:</div>',
+  data: function () {
+    return {
+      msg: this.$route.path
+    }
+  },
 };
 </script>
 
@@ -21,10 +21,10 @@ export default {
 body {
   margin: 0;
   background-image: url("./assets/images/background.png");
-  height: 100vh; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire */
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -56,32 +56,32 @@ a {
 
 
 .container {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding-top: 60px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-top: 60px;
 }
 
 header {
-    flex-shrink: 0;
-    height: 20vh;
-    position: static;
-    top: 0;
-    opacity: 90%;
+  flex-shrink: 0;
+  height: 20vh;
+  position: static;
+  top: 0;
+  opacity: 90%;
 }
 
 
 footer {
-    flex-shrink: 0;
-    width: 100%;
-    height: 2.4rem;
-    position: sticky;
-    bottom: 0;
-    padding-top: 7px;
-    background-color: azure;
-    height: 10vh;
-    opacity: 93%;
+  flex-shrink: 0;
+  width: 100%;
+  height: 2.4rem;
+  position: sticky;
+  bottom: 0;
+  padding-top: 7px;
+  background-color: azure;
+  height: 10vh;
+  opacity: 93%;
 }
 </style>

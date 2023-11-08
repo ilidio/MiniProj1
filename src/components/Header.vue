@@ -33,15 +33,18 @@
       </div>
 
       <!-- A minha foto -->
-      <img src="https://lh3.googleusercontent.com/-V7jCih42Izg/AAAAAAAAAAI/AAAAAAAAAAA/AML38-tcalWQmGK1jRtzSsd1YVgjquWUZA/photo.jpg?sz=46" alt="Ilídio Martins" class="img-fluid rounded-circle photo">
+      <img
+          src="https://lh3.googleusercontent.com/-V7jCih42Izg/AAAAAAAAAAI/AAAAAAAAAAA/AML38-tcalWQmGK1jRtzSsd1YVgjquWUZA/photo.jpg?sz=46"
+          alt="Ilídio Martins" class="img-fluid rounded-circle photo">
     </div>
   </nav>
 </template>
 
 <style>
 .shaddow-header {
-  box-shadow: 0px 16px 22px -11px rgba(0,0,0,0.10);
+  box-shadow: 0px 16px 22px -11px rgba(0, 0, 0, 0.10);
 }
+
 .photo {
   width: 40px;
   height: 40px;
