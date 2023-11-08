@@ -48,5 +48,8 @@
   width: 40px;
   height: 40px;
   margin-left: auto;
+  position: absolute;
+  top:5px;
+  right: 5px;
 }
 </style>
