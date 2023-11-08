@@ -26,4 +26,14 @@ npm run dev
 npm run build
 ```
 
+## Prototipagem
+
+A Prototipagem está disponivel na pasta ./prototipagem
+
+``` bash
+cd ./prototipagem
+```
+
+
+
 For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
