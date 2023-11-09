@@ -4,21 +4,24 @@
   </div>
 </template>
 
-
-<script>
-export default {
-  name: 'SubPage',
-  template: '<div>SubPage path:</div>',
-  data: function () {
-    return {
-      msg: this.$route.path
-    }
-  },
-};
-</script>
-
 <style>
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('./assets/fonts/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MontserratMedium';
+  src: url('./assets/fonts/Montserrat-Medium.ttf') format('truetype');
+}
+
 body {
+  font-family: 'Montserrat';
   margin: 0;
   background-image: url("./assets/images/background.png");
   height: 100vh;
@@ -29,7 +32,7 @@ body {
 }
 
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
@@ -38,7 +41,11 @@ body {
 }
 
 h1, h2 {
+  font-family: 'MontserratBold';
   font-weight: normal;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  font-size: 25px;
 }
 
 ul {
@@ -53,7 +60,6 @@ li {
 a {
   color: #17171a;
 }
-
 
 .container {
   width: 100%;

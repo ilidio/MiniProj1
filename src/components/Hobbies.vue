@@ -27,6 +27,7 @@ export default {
 
 <style>
 #hobbies {
+  font-family: 'MontserratMedium';
   font-weight: bold;
 }
 </style>

@@ -56,6 +56,7 @@ export default {
 
 <style>
 #cv {
+  font-family: 'MontserratMedium';
   font-weight: bold;
 }
 </style>

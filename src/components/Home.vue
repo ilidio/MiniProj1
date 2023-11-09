@@ -42,6 +42,7 @@ export default {
 
 <style>
 #home {
+  font-family: 'MontserratMedium';
   font-weight: bold;
 }
 

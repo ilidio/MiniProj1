@@ -38,6 +38,13 @@ module.exports = {
         options: {
           name: '[name].[ext]?[hash]'
         }
+      },
+      {
+        test: /\.(ttf)$/,
+        loader: 'file-loader',
+        options: {
+          name: 'fonts/[name].[ext]?[hash]'
+        }
       }
     ]
   },
