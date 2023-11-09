@@ -41,19 +41,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'SubPage',
-  template: '<div>SubPage path: {{msg}}</div>',
-  data: function () {
-    return {
-      msg: this.$route.path
-    }
-  }
-};
-</script>
-
-
 <style>
 #cv {
   font-family: 'MontserratMedium';

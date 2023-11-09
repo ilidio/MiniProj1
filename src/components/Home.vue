@@ -28,17 +28,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Home',
-  template: '<div>SubPage path: {{msg}}</div>',
-  data: function () {
-    return {
-      msg: this.$route.path
-    }
-  }
-};
-</script>
 
 <style>
 #home {
